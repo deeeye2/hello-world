@@ -35,7 +35,7 @@
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>3.1.2</version>
                 <configuration>
-                    <configLocation>${project.basedir}/webapp/src/main/webapp/WEB-INF/checkstyle.xml</configLocation>
+                    <configLocation>webapp/src/main/webapp/checkstyle.xml</configLocation>
                 </configuration>
             </plugin>
             <plugin>
@@ -100,5 +100,6 @@
     </prerequisites>
 
 </project>
+
 
 
